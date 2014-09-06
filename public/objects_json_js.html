@@ -1,0 +1,79 @@
+<html>
+<head>
+ <title>Book List</title>
+</head> 
+<body>
+<script>	
+// todo:
+// Create an array of objects that represent books.
+// Each book should have a title and an author.
+// The book author should be an object with a firstName and lastName.
+// var books = [todo];
+
+// log out the books array
+var books = [
+              {
+              	"Title"		: "Walden",   
+              	"Author"	: {
+              					'firstName' : 'Henry David',
+              					'lastName'	: 'Thoreau'
+              				  }
+              },
+
+              {
+              	"Title"		: "The Bell Jar",   
+              	"Author"	: {
+              					'firstName' : 'Sylvia',
+              					'lastName'	: 'Plath'
+              				  }
+              },
+
+              {
+              	"Title"		: "The Great Gatsby",   
+              	"Author"	: {
+              					'firstName' : 'F. Scott',
+              					'lastName'	: 'Fitzgerald'
+              				  }
+              },
+
+              {
+
+              	"Title"		: "1984",   
+              	"Author"	: {
+              					'firstName' : 'George',
+              					'lastName'	: 'Orwell'
+              				  }
+              	
+              },
+
+              {
+
+              	"Title"		: "The Scarlet Letter",   
+              	"Author"	: {
+              					'firstName' : 'Nathaniel',
+              					'lastName'	: 'Hawthorn'
+              				   }
+              	
+              },
+
+             ]; 
+
+            
+           
+
+   
+
+// todo:   
+// Loop through the array of books using .forEach and print out the specified information about each one
+    books.forEach(function (book, index) {
+       
+	 console.log("Book " + index + " : ");
+	 console.log("Title: " + book.Title);
+	 console.log("Author: " + book.Author.firstName + ' ' + book.Author.lastName);
+	 console.log("---");
+
+    });
+
+</script>
+</body>
+</html>
