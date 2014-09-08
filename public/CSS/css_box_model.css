@@ -1,0 +1,104 @@
+#container {
+     width: 300px;
+     height: 300px;
+     border: 1px solid black;
+     padding: 21px;
+     position: absolute;
+
+      }
+
+h2   {
+      font-size: 24px;
+      color: 660099;
+      text-decoration: underline;
+      }
+
+#red { 
+      width: 21px; 
+      height: 21px;
+      border: 1px solid black;
+      padding: 21px;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 150px;
+      float: right;
+      position: relative;
+      }
+
+#orange { 
+      width: 21px; 
+      height: 21px;
+      border: 1px solid black;
+      padding: 21px;
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      position: relative;
+      float: left;
+      } 
+  
+#yellow { 
+      width: 21px; 
+      height: 21px;
+      border: 1px solid black;
+      padding: 21px;
+      background-color: yellow;
+      color: white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-right: 50px;
+      position: relative;
+      float: left;
+      }
+
+#green { 
+      width: 21px; 
+      height: 21px;
+      border: 1px solid black;
+      padding: 21px;
+      background-color: green;
+      color: white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      position: absolute;
+      margin-right: 250px;
+      position: relative;
+      float: left;
+      }
+
+#blue { 
+      width: 21px; 
+      height: 21px;
+      border: 1px solid black;
+      padding: 21px;
+      background-color: blue;
+      color: white;
+      margin-top: 150px;
+      margin-bottom: 50px;
+      margin-right: 150px;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      float: left;
+      }
+
+#pink { 
+      width: 21px; 
+      height: 21px;
+      border: 1px solid black;
+      padding: 21px;
+      background-color: pink;
+      color: white;
+      margin-top: 150px;
+      margin-bottom: 50px;
+      margin-right: 50px;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      float: left;
+      }
+     
