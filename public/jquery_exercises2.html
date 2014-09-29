@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Example jquery page</title>  
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+    $(document).ready(function() 
+            {
+              $('.codeup').css('border', '1px solid red');
+            });
+    </script>
+</head>
+<body>
+    <div>
+      <!-- adding a class to different elements to change styling on html page -->
+      <h1 class="codeup">This is a header in the "codeup" class.</h1>
+        <p class="codeup">Here's another element in the "codeup" class as <em class="codeup">well</em>.  It's a paragraph.</p> 
+        <!-- adding the "codeup" id, while not adding the class to differentiate between the two; nothing happens without a class add/change -->
+        <h4 id="codeup">This is a smaller text. It will not be effected by the "class" styling, bc it is OUT of it.</h4>
+
+
+    </div>  
+
+</body>
+</html>
