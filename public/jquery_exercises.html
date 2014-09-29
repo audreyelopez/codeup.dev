@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Example jquery page</title>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>type="text?javascript">
+		$('document').ready(function() {
+        	var contents = $('#codeup').html(); 
+            alert(contents);
+       	});
+    </script>
+</head>
+<body>
+    <!-- using a class and a div below to give jquery an element to select at a later point -->
+    <h1 id="codeup">Hello Codeup!</h1>
+    <div class="important">
+    	        <h3>NOTICE</h3>
+				<p>This is an important message!</p>
+	</div>
+	<div class="not-important">			
+ <ul>here is an unordered list</ul>
+  <li>This is where any lines would go, this is line one</li> 
+  <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, incididunt ut <span class="important">labore et dolore magna aliqua.</span>quis ut aliquip ex ea commodo.</p>
+    </div>
+    <p class="important">This is also very important.</p>
+
+</body>
+</html>
