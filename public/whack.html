@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Whack a Ghost</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<style>
+		.container {
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.grid {
+			border-style: solid;
+			border-width: 1.5px;
+			height: 150px;
+			width: 150px;
+			float: left;
+		}	
+
+		.img-circle {
+			border-style: solid;
+			border-width: 1.5px;
+			height: 150px;
+			width: 150px;
+			float: left;
+
+		}
+
+	</style>	
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+	<script>
+
+    	$('document').ready(function() {
+    		// $('.img-circle').hide();
+
+    	$('.img-circle').click(function() {
+                $(this).fadeToggle(2000);
+            });
+    	 });
+
+    </script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole1" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole2" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole3" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole4" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole5" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole6" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole7" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole8" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole9" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole10" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole11" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole12" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole13" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole14" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole15" width="150" height="150"></div>
+		<div class="grid"><img src="/img/ghost.jpg" alt="..." class="img-circle" id="mole16" width="150" height="150"></div>
+	</div>
+</body>
+</html>
